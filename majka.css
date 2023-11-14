@@ -1,0 +1,146 @@
+.dropbtn {
+ 
+  background-color: #3e7a7c
+  ;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: fixed;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#5F9EA0
+  ;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+  z-index: 1;
+ 
+}
+
+/* Links inside the dropdown */
+.dropdown-content {
+  color: whitesmoke;
+}
+.dropdown-content a {
+  
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #4d9b9e
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #397274
+  ;;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+  body{
+    background-image: url('slike/pexels-miguel-á-padriñán-19670.jpg');
+     
+    background-size: cover;
+  } 
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   height: 500px;
+    width: 400px;
+ 
+  }
+  div.gallery {
+    margin: 20px;
+    
+    float: left;
+    width: 587px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+ 
+  .bio{
+    text-align: center;
+  }
+  .slika{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 900px;
+  
+  }
+  .bio{
+    margin-top: 500px;
+  }
+
+  h1 {
+    margin-top: 20px;
+    color: #375e97;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #375e97;
+  }
+  
+  h2 {
+    
+    font-size: 1.7em;
+  }
+  
+  .job-title {
+    margin-top: 40px;
+    text-align: center;
+    color: #356abb;
+    font-weight: bold;
+    font-size: 1.9em;
+  }
+  
+  a:link, a:visited {
+    color: #000000;
+  }
+  
+  p{
+    color: rgb(0, 84, 117);
+    text-align: center;
+    font: 1.2em sans-serif;
+  }
+li{
+ 
+  font: 1em sans-serif;
+}
+.id{
+  
+  font-weight:bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.1em;
+}
